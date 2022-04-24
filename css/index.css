@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-h1{color: white;}
-
-h2,h3{color: pink;}
-
 header{
     display: flex;
     flex-direction: row;
@@ -16,12 +12,12 @@ header{
     width: 100%;
     height: 85px;
     padding-left: 20px;
-    background-color: pink;
-    color: white;
+    border: lightcyan 2px solid;
     position: sticky;
     top: 0;
     z-index: 999;
     align-items: center;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 header img{
@@ -35,7 +31,7 @@ main{
 }
 
 .introduction{
-    border: pink 2px solid;
+    border: lightcyan 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +69,7 @@ main{
     justify-content: center;
     width: 40%;
     margin: 20px;
-    border: pink 2px solid;
+    border: lightcyan 2px solid;
 }
 
 .revision:hover{transform: scale(1.03);}
@@ -95,9 +91,9 @@ main{
 
 .revision button{
     margin-bottom: 20px;
-    color: pink;
+    color: lightcyan;
     border-radius: 30px;
-    border: pink 2px solid;
+    border: lightcyan 2px solid;
     padding: 10px;
     background-color: white;
     cursor: pointer;
@@ -106,7 +102,7 @@ main{
 .revision button:hover{
     transform: scale(1.03);
     color: white;
-    background-color: pink;
+    background-color: lightcyan;
 }
 
 footer{
@@ -115,7 +111,7 @@ footer{
     justify-content: center;
     width: 100%;
     line-height: 70px;
-    background-color: pink;
+    background-color: lightcyan;
     color: white;
     align-items: center;
 }
