@@ -12,7 +12,7 @@ header{
     width: 100%;
     height: 85px;
     padding-left: 20px;
-    border: lightcyan 2px solid;
+    border: palevioletred 2px solid;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -31,7 +31,7 @@ main{
 }
 
 .introduction{
-    border: lightcyan 2px solid;
+    border: palevioletred 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@ main{
     justify-content: center;
     width: 40%;
     margin: 20px;
-    border: lightcyan 2px solid;
+    border: palevioletred 2px solid;
 }
 
 .revision:hover{transform: scale(1.03);}
@@ -91,9 +91,9 @@ main{
 
 .revision button{
     margin-bottom: 20px;
-    color: lightcyan;
+    color: palevioletred;
     border-radius: 30px;
-    border: lightcyan 2px solid;
+    border: palevioletred 2px solid;
     padding: 10px;
     background-color: white;
     cursor: pointer;
@@ -102,7 +102,7 @@ main{
 .revision button:hover{
     transform: scale(1.03);
     color: white;
-    background-color: lightcyan;
+    background-color: palevioletred;
 }
 
 footer{
@@ -111,7 +111,7 @@ footer{
     justify-content: center;
     width: 100%;
     line-height: 70px;
-    background-color: lightcyan;
+    background-color: palevioletred;
     color: white;
     align-items: center;
 }
