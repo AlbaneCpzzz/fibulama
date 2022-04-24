@@ -13,6 +13,7 @@ header{
     height: 85px;
     padding-left: 20px;
     border: lightskyblue 2px solid;
+    background-color: white;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -22,6 +23,7 @@ header{
 
 header img{
     padding-right: 20px;
+    height: 70px;
 }
 
 main{
@@ -111,8 +113,10 @@ footer{
     justify-content: center;
     width: 100%;
     line-height: 70px;
-    background-color: lightskyblue;
-    color: white;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    border: lightskyblue 2px solid;
+    
     align-items: center;
 }
 
