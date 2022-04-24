@@ -23,7 +23,7 @@ header{
 
 header img{
     height: 90px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 main{
@@ -45,7 +45,7 @@ main{
     padding: 50px;
     background-color: white;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .introduction p{text-align: center;}
@@ -73,7 +73,7 @@ main{
     width: 40%;
     margin: 20px;
     border: lightskyblue 2px solid;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .revision:hover{transform: scale(1.03);}
@@ -96,7 +96,7 @@ main{
 .revision button{
     margin-bottom: 20px;
     color: lightskyblue;
-    border-radius: 30px;
+    border-radius: 20px;
     border: lightskyblue 2px solid;
     padding: 10px;
     background-color: white;
