@@ -24,6 +24,7 @@ header{
 header img{
     padding-right: 20px;
     height: 70px;
+    border-radius: 30px;
 }
 
 main{
@@ -45,6 +46,7 @@ main{
     padding: 50px;
     background-color: white;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    border-radius: 30px;
 }
 
 .introduction p{text-align: center;}
@@ -72,6 +74,7 @@ main{
     width: 40%;
     margin: 20px;
     border: lightskyblue 2px solid;
+    border-radius: 30px;
 }
 
 .revision:hover{transform: scale(1.03);}
