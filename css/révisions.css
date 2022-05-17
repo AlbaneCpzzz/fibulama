@@ -1,0 +1,63 @@
+.bibliothèque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.étagère{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.librairie{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.livre{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    border-radius: 20px;
+    border: lightskyblue 2px solid;
+    margin: 20px;
+}
+
+.livre iframe{
+    width: 65%;
+    height: 250px;
+}
+
+.livre button{
+    margin: 10px;
+    color: lightskyblue;
+    border-radius: 20px;
+    border: lightskyblue 2px solid;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.livre button:hover{
+    transform: scale(1.03);
+    color: white;
+    background-color: lightskyblue;
+}
+    

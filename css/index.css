@@ -53,8 +53,8 @@ main{
 .revisions{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
-    padding-left: 70px;
     margin-bottom: 50px;
 }
 
@@ -63,6 +63,7 @@ main{
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .revision{
